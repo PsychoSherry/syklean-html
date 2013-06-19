@@ -29,8 +29,9 @@
 		font-size: 12pt;
 		color: #696969;
 		font-weight: 300;
-		background: url('images/bgshadow.png') top left no-repeat;
+		/*background: url('images/bgshadow.png') top left no-repeat;*/
 		background-size: 100% 100%;
+		background-color: rgba(255,255,255,0.7);
 	}
 	
 	h5.info a {
@@ -49,7 +50,7 @@
 	
 	h1, h2, h3, h4, h5, h6	{
 		/*color: #5C5851;*/
-		color: #847F75;
+		color: #69655D;
 		font-weight: 300;
 	}
 	
@@ -98,9 +99,8 @@
 		text-align: justify;
 	}
 	
-	section,
-	article
-	{
+	section, article {
+		margin-top: 3em; 
 		margin-bottom: 5em;
 	}
 	
@@ -121,7 +121,7 @@
 		margin: 0 auto 2.5em auto;
 		max-width: 80%;
 		border-radius: 4px;		
-		box-shadow: 0 0 4px #888;
+		box-shadow: 0 0 3px #888;
 
 	}
 
@@ -268,7 +268,7 @@
 
 	header
 	{
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 		text-align: center;
 	}
 	
@@ -387,7 +387,7 @@
 	#main-wrapper
 	{
 		/*background: #fff;*/
-		box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.05);
+		box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.05);
 	}
 	
 	#footer-wrapper
@@ -421,9 +421,9 @@
 			line-height: 1.2em;
 		}
 
-			#logo h1 a:hover {
+		/*	#logo h1 a:hover {
 				color: #007FAD;
-			}
+			}*/
 		
 		#logo span
 		{

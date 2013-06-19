@@ -19,6 +19,7 @@
 	{
 		font-size: 19pt;
 		margin: 0 0 0.3em 0;
+		line-height: 1.5em;
 	}
 
 	h2
@@ -47,6 +48,7 @@
 	article
 	{
 		clear: both;
+		margin-top: 0;
 		margin-bottom: 3em !important;
 	}
 	
