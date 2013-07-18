@@ -1,0 +1,195 @@
+/* NIGGA SAY WHAT? */
+html
+{
+	background: #f7f7f7 url('images/bg.jpg');
+	height: 100%;
+}
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	color: #696969;
+	font-weight: 300;
+	background-size: 100% 100%;
+	background-color: rgba(255,255,255,0.7);
+
+	line-height: 2.25em;
+	padding: 0;
+	margin:0;
+	min-height: 100%;
+	min-width: 100%;
+	line-height: 1.75em;
+	font-size: 10.75pt;
+}
+
+
+.soon-bitches-soon {
+	width: 90%;
+    height: 50%;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#soon
+{
+	text-align: center;
+	padding: 1em 0 0 0;
+	font-size: 0.68em;
+	/*border-top:1px solid red;*/
+	width:100%;
+	margin: auto;
+	position: relative;
+  	overflow: hidden;
+}
+
+	#soon span {
+		text-align: center;
+		display: inline-block;
+  		vertical-align: baseline;
+  		zoom: 1;
+  		*display: inline;
+  		*vertical-align: auto;
+  		position: relative;
+	}
+
+	#soon span:before, #soon span:after {
+		content: '';
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 1.2em;
+		border-top: 1px solid #c2c2c2;
+	}
+
+	#soon span:before {
+		right: 120%;
+	}
+
+	#soon span:after {
+		left: 120%;
+	}
+
+
+
+header#header
+{
+	position: relative;
+	text-align: center;
+}
+#header-wrapper
+{
+	padding: 2em 0 0 0;
+}
+
+#logo
+{
+	text-align: center;
+	overflow: hidden;
+}
+
+	#logo h1
+	{
+		font-size: 4em;
+		float: center;
+		padding: 0.25em 0.2em 0.25em 0.2em;
+		letter-spacing: 0.05em;
+		display: inline-block;
+		margin-top: 0.15em;
+		font-family: 'Merienda', cursive;
+		font-weight: 400;
+		line-height: 1.2em;
+	}
+
+		#logo h1 a, .links a i {
+			color: inherit;
+			text-decoration: none;
+			outline: 0;
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+			-o-transition: color .25s ease-in-out;
+			-ms-transition: color .25s ease-in-out;
+			transition: color .25s ease-in-out;
+		}
+
+			#logo h1 a:hover, .links a:hover i {
+					color: #007FAD;
+				}
+		
+	#logo span
+	{
+		line-height: 4.5em;
+		letter-spacing: 0.025em;
+		font-size: 0.9em;
+		font-weight: 800;
+	}
+
+
+
+/* Font Awesome Shit */
+
+.links {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+	.links i {
+		margin: 0 0.5em;
+	}
+
+	.links a {
+		color: #696969;
+	}
+
+
+
+/* Device Specific Font Size*/
+
+@media screen and (max-width : 2000px)
+{
+  #logo h1
+  {
+    font-size: 5em;
+  }
+}
+
+
+@media screen and (max-width : 1500px)
+{
+  #logo h1
+  {
+    font-size: 4.5em;
+  }
+}
+
+@media screen and (max-width : 1200px)
+{
+  #logo h1
+  {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width : 850px)
+{
+  #logo h1
+  {
+    font-size: 3em;
+  }
+}
+
+
+@media screen and (max-width : 480px)
+{
+  #logo h1
+  {
+    font-size: 2.3em;
+  }
+}
