@@ -116,6 +116,17 @@
 		margin-bottom: 0;
 	}
 
+	blockquote {
+		margin: 1em 5em;
+		font-family: 'Sorts Mill Goudy', serif;
+		font-style: italic;
+	}
+
+		blockquote p {
+			font-size: 16pt;
+			line-height: 1.3em;
+		}
+
 	#content img {
 		display: block;
 		margin: 0 auto 2.5em auto;
@@ -421,9 +432,9 @@
 			line-height: 1.2em;
 		}
 
-		/*	#logo h1 a:hover {
+			#logo h1 a:hover {
 				color: #007FAD;
-			}*/
+			}
 		
 		#logo span
 		{

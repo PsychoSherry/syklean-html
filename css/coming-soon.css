@@ -64,7 +64,7 @@ body
 		display: block;
 		width: 100%;
 		position: absolute;
-		top: 1.2em;
+		top: 1.31em;
 		border-top: 1px solid #c2c2c2;
 	}
 
@@ -102,7 +102,7 @@ header#header
 		letter-spacing: 0.05em;
 		display: inline-block;
 		margin-top: 0.15em;
-		font-family: 'Merienda', cursive;
+		font-family: 'Great Vibes', cursive;
 		font-weight: 400;
 		line-height: 1.2em;
 	}
@@ -152,11 +152,11 @@ header#header
 
 /* Device Specific Font Size*/
 
-@media screen and (max-width : 2000px)
+@media screen and (max-width : 7000px)
 {
   #logo h1
   {
-    font-size: 5em;
+    font-size: 6em;
   }
 }
 
@@ -165,7 +165,7 @@ header#header
 {
   #logo h1
   {
-    font-size: 4.5em;
+    font-size: 5.5em;
   }
 }
 
@@ -173,7 +173,7 @@ header#header
 {
   #logo h1
   {
-    font-size: 4em;
+    font-size: 5.5em;
   }
 }
 
@@ -181,15 +181,59 @@ header#header
 {
   #logo h1
   {
-    font-size: 3em;
+    font-size: 4.5em;
   }
 }
 
+@media screen and (max-width : 550px)
+{
+  #logo h1
+  {
+    font-size: 4em;
+  }
+}
 
 @media screen and (max-width : 480px)
 {
   #logo h1
   {
-    font-size: 2.3em;
+    font-size: 3em;
+  }
+
+  .links {
+  	font-size: 1.2em;
   }
 }
+
+
+/* FLOATER CSS!! */
+/* Referenced from http://blog.bitcrowd.net/wp-content/themes/airship/style.css */
+
+#floater {
+  -webkit-animation-duration: 10s;
+  -webkit-animation-name: vertical-floating;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-duration: 10s;
+  -moz-animation-name: vertical-floating;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-duration: 10s;
+  -ms-animation-name: vertical-floating;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-duration: 10s;
+  -o-animation-name: vertical-floating;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: ease-in-out;
+}
+
+
+@-webkit-keyframes vertical-floating{from{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}50%{-webkit-transform:translate(0px, 10px);-moz-transform:translate(0px, 10px);-ms-transform:translate(0px, 10px);-o-transform:translate(0px, 10px);transform:translate(0px, 10px)}to{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}}
+
+@-moz-keyframes vertical-floating{from{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}50%{-webkit-transform:translate(0px, 10px);-moz-transform:translate(0px, 10px);-ms-transform:translate(0px, 10px);-o-transform:translate(0px, 10px);transform:translate(0px, 10px)}to{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}}
+
+@-ms-keyframes vertical-floating{from{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}50%{-webkit-transform:translate(0px, 10px);-moz-transform:translate(0px, 10px);-ms-transform:translate(0px, 10px);-o-transform:translate(0px, 10px);transform:translate(0px, 10px)}to{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}}
+
+@-o-keyframes vertical-floating{from{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}50%{-webkit-transform:translate(0px, 10px);-moz-transform:translate(0px, 10px);-ms-transform:translate(0px, 10px);-o-transform:translate(0px, 10px);transform:translate(0px, 10px)}to{-webkit-transform:translate(0px, -10px);-moz-transform:translate(0px, -10px);-ms-transform:translate(0px, -10px);-o-transform:translate(0px, -10px);transform:translate(0px, -10px)}}
+
